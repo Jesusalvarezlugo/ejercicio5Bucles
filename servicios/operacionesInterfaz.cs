@@ -8,5 +8,7 @@ namespace ejercicio5Bucles.servicios
 {
     internal interface operacionesInterfaz
     {
+
+        public void AñoBisiesto(int mes,int anyo);
     }
 }
