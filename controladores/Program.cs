@@ -19,7 +19,20 @@ namespace ejercicio5Bucles.controladores
                 mes = pi.PedirMes();
                 anyo = pi.PedirAnyo();
 
-                switch (mes)
+                if (mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12)
+                {
+                    Console.WriteLine("el mes {0} tiene 31 días",mes);
+                }else if (mes == 4 || mes == 6 || mes == 9 || mes == 10)
+                {
+                    Console.WriteLine("El mes {0} tiene 30 días",mes);
+                }
+                else
+                {
+                    oi.AñoBisiesto(mes,anyo);
+                }
+
+
+                /*switch (mes)
                 {
                     case 1:
                         Console.WriteLine("El mes de Enero tiene 31 días");
@@ -73,7 +86,7 @@ namespace ejercicio5Bucles.controladores
                         Console.WriteLine("[ERROR] el numero introducido no es un mes");
                         break;
 
-                }
+                }*/
                 respuesta = pi.RepetirFecha();
             } while (respuesta=="s");
         }

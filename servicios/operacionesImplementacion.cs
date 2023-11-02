@@ -18,24 +18,24 @@ namespace ejercicio5Bucles.servicios
                     {
                         if (anyo % 400 == 0)
                         {
-                            Console.WriteLine("El mes de Febrero tiene 29 dias");
+                            Console.WriteLine("El mes 2 tiene 29 dias");
                         }
 
                         else
                         {
-                            Console.WriteLine("El mes de Febrero tiene 28 dias");
+                            Console.WriteLine("El mes 2 tiene 28 dias");
                         }
                     }
 
                     else
                     {
-                        Console.WriteLine("El mes de Febrero tiene 29 dias");
+                        Console.WriteLine("El mes 2 tiene 29 dias");
                     }
                 }
 
                 else
                 {
-                    Console.WriteLine("El mes de Febrero tiene 28 dias");
+                    Console.WriteLine("El mes 2 tiene 28 dias");
                 }
             
             
