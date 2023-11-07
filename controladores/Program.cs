@@ -38,7 +38,7 @@ namespace ejercicio5Bucles.controladores
                 }
                 else
                 {
-                    oi.AñoBisiesto(mes,anyo);
+                    oi.AnyoBisiesto(mes,anyo);
                 }
                 
                
